@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+#configitem {
+	background-color: #eeeeee;
+	width:200px;
+	height:700px;
+	border:2px solid #ccc;
+	float:left;
+	margin:0 0 10px 0;
+} 
+#configitem ul {
+	text-align:left;
+	
+}
+#configitem ul li {
+	font-size:18px;
+	width:180px;
+	height:20px;
+	padding-left:10px;
+	padding:10px;
+	margin-bottom:20px;
+	
+	/* display:inline; */
+	
+}
+#configitem ul #hedli {
+	background-color: #c9c9c9;
+}
+#configitem ul li:hover {
+	background-color: #c9c9c9;
+}
+#configitem ul li a{
+	text-decoration:none;
+	color:#333;
+}
+#configitem ul li a:hover {
+	text-decoration:none;
+}
+#lists{
+	background-color: #ffffff;
+	font-size:16px;
+	width:752px;
+	height:720px;
+	border:2px solid #ccc;
+	float:right;
+	
+}
+#lists form{
+	margin-top:20px;
+	margin-left:20px;
+	font-size:14px;
+}
+#lists a{
+	font-size:14px;
+	padding:10px;
+	margin-right:10px;
+	text-decoration:none;
+	color:#333;
+	border:2px solid #ccc;
+}
+#lists a:hover{
+	color:orange;
+	text-decoration:none;
+}
+#lists input[type="submit"] {
+	background-color: #ffffff;
+	width:50px;
+	height:25px;
+}
+.upload {
+	line-height: 25px;
+	 position: relative;
+	color: #888;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	overflow: hidden;
+	display: inline-block;
+	display: inline;
+	zoom: 0;
+}
+.upload a:hover{
+		cursor: pointer;
+}
+.upload input {
+	position: absolute;
+	width:65px;	
+	right:0;
+	top: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: pointer;
+	zoom:3;
+} 
+.upload:hover {
+	color:orange;
+	background: #eee;
+	border-color: #ccc;
+	text-decoration: none
+} */

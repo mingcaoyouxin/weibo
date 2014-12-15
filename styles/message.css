@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+body{
+	background-color:#FFFFFF;
+}
+* {
+	padding:0;
+	margin:0;
+}
+#message #button{
+	background-color:#dbdbdb;
+	padding:2px;
+}
+ #content{
+	width:98%;
+	height:50px;
+ 	border:1px solid #cafdfd;
+}
+.button {
+	height:19px;
+	border:1px solid #333;
+	background:#ffffff;
+	cursor:pointer;
+	margin:15px 10px 0 0;
+	float:right;
+}
+.close {
+	height:19px;
+	border:1px solid #333;
+	background:#ffffff;
+	cursor:pointer;
+	float:right;
+	margin:2px 2px;
+}
+#backgray{
+	overflow: auto;
+	width:98%;
+	height:340px;
+	background:#ffffff;
+	margin:0 0 10px 0;
+	alignWithBottom:true;
+}
+#receivemessage{	
+	background:#ffffec;
+	clear:both;
+	float:left;
+	widht:65%;
+	margin:5px 0px 20px 10px;
+}
+#mymessage{
+	clear:both;
+	float:right;
+	widht:65%;
+	background:#ecffff;
+	margin:5px 10px 20px 0;	
+}

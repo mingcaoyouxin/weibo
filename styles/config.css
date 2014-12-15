@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+#configitem {
+	background-color: #eeeeee;
+	width:200px;
+	height:700px;
+	border:2px solid #ccc;
+	float:left;
+	margin:0 0 10px 0;
+} 
+#configitem ul {
+	text-align:left;
+	
+}
+#configitem ul li {
+	font-size:18px;
+	width:180px;
+	height:20px;
+	padding-left:10px;
+	padding:10px;
+	margin-bottom:20px;
+	
+	/* display:inline; */
+	
+}
+#configitem ul li:hover {
+	background-color: #c9c9c9;
+}
+#configitem ul li a{
+	text-decoration:none;
+	color:#333;
+}
+#configitem ul li a:hover {
+	text-decoration:none;
+}
+#lists{
+	background-color: #ffffff;
+	font-size:16px;
+	width:752px;
+	height:700px;
+	border:2px solid #ccc;
+	float:right;
+}
+#lists dl {
+	width:752px;
+	margin:10px 0px 0px 10px;
+}
+#lists dl dd {
+	padding:5px 0;
+	background:#f3f3f3;
+	margin:15px;
+}
+#lists dl dd.face {
+	padding:5px 0 5px 120px;
+}
+#lists dl dd.face img {
+	cursor:pointer;
+}
+#lists dl dd input.text {
+	width:220px;
+	height:19px;
+	border:1px solid #333;
+	background:#fff;
+}
+#lists dl dd input.yzm {
+	width:60px;
+}
+#lists dl dd input.submit {
+	width:80px;
+	height:30px;
+	border:1px soiid #333;
+	background:#ffc184;
+	cursor:pointer;
+	margin:0 0 0 60px;
+}

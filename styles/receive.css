@@ -1,0 +1,286 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+ul{
+	list-style-type:none;
+}
+body {
+	width:960px;
+	margin:0 auto;
+	background:url(../sources/xidian.jpg) no-repeat center ;
+	font-size:14px;
+	font-family: sans-serif;
+}
+
+#searchtbar{
+	width:auto;
+	height:40px;
+	border:1px solid #ccc;
+	background-color: #ffffff;
+	margin-bottom:10px;
+}
+#searchtbar ul {
+	text-align:right;
+	padding:8px 15px 0 0;
+}
+#searchtbar ul li {
+	font-size:18px;
+	text-align:top;
+	padding-left:30px;
+	display:inline;
+}
+#searchtbar ul  #line{
+	padding-left:10px;
+}
+#searchtbar ul  #tool{
+	padding-left:10px;
+	padding-top:5px;
+}
+#searchtbar ul li a{
+	text-decoration:none;
+	color:#333;
+}
+#searchtbar ul li a:hover {
+	color:orange;
+	text-decoration:none;
+}
+
+#header {
+	width:auto;
+	height:250px;
+	border:2px solid #ccc;
+	margin-top:5px;
+  	border: 1px solid black;
+  	/* for IE */
+  	/* filter:alpha(opacity=60);
+  	CSS3 standard
+  	opacity:0.6; */
+}
+#toolbar{
+	width:auto;
+	height:50px;
+	border:1px solid #ccc;
+	background-color: #ffffff;
+	margin-bottom:10px;
+}
+#toolbar ul {
+	text-align:center;
+	padding:15px 50px 0 0;
+}
+#toolbar ul li {
+	font-size:20px;
+	padding-left:180px;
+	display:inline;
+}
+#fans{
+	background-color: #ffffff;
+	width:195px;
+	height:120px;
+	border:2px solid #ccc;
+	float:right;
+	
+}
+#receive{
+	background-color: #ffffff;
+	width:530px;
+	height:100px;
+	border:2px solid #ccc;
+	float:left;
+	margin:0 0 5px 10px;
+}
+#grayback{
+	background-color: #cccccc;
+	width:530px;
+	height:25px;
+	border:2px solid #ccc;
+	float:left;
+	margin:0 0 10px 10px;
+}
+#message{
+	background-color: #ffffff;
+	width:200px;
+	height:750px;
+	border:2px solid #ccc;
+	float:left;
+	
+}
+#imghead{
+	width:50px;
+	height:50px;
+	 border-radius: 50px;
+	 position:relative;
+	 z-index: 0;
+	 
+}
+#small {
+	clear:both;
+	padding:20px 0;
+	position:relative;
+	
+}
+ #fans ul {
+	position:absolute;
+	height:20px;
+ 	top:75px;
+ 	background-color:#ffffff;
+ 	width:195px;
+ 	height:44px;
+}
+#fans ul li {
+	float:left;
+	width:36px;
+	height:20px;
+	margin:2px 10px 0 15px;
+}
+#fans ul li a {
+	display:block;
+	color:#0b0000; 
+	width:40px;
+	height:40px;
+	line-height:20px;
+	text-align:center;
+	text-decoration:none;
+	background-color:#ffffff;
+}
+#fans ul li a:hover,#fans ul li a.selected {
+	background:#d4d4d4;
+	font-weight:bold;
+	color:#fff;
+}
+#message  {
+	width:200px;
+	height:730px;
+	margin:0px;
+	float:left;
+}
+#message  dl {
+	width:200px;
+	background:red;
+	margin:15px auto;
+}
+#message dl dt {
+	height:40px;
+	line-height:40px;
+	background:#999;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+#message dl dd {
+	height:40px;
+	line-height:40px;
+	background:#eee;
+	font-weight:bold;
+	text-align:center;
+}
+#message  dl dd a {
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+#message dl dd a:hover {
+	background:#ccc;
+}
+
+#receive #time{
+	float:right;
+	margin:0px 15px 0 0;
+	
+}
+#head{
+	width:50px;
+	height:50px;
+	border-radius: 50px;
+	padding:5px;
+	border:1px solid gray;
+	float:left;
+}
+#receive #username{
+	margin:10px 0 5px 15px;
+	padding-left:50px;
+}
+#receive #content{
+	margin:20px 0 5px 15px;
+	width:530px;
+	padding-left:50px;
+}
+#receive #detail a{
+	float:right;
+	margin:0px 15px 0 0;
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+#receive #delete a:hover {
+	background:#ccc;
+	cursor:pointer;
+}
+#receive #delete a{
+	float:right;
+	margin:0px 15px 0 0;
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+#receive #detail a:hover {
+	background:#ccc;
+	cursor:pointer;
+}
+#secretFrame{
+	background:#ffffff;
+	width:400px;
+	height:500px;
+	bottom:10px;
+	position:absolute;
+	right:10px;
+}
+#page_num {
+	height:20px;
+	clear:both;
+	padding:10px 0;
+	position:relative;
+}
+#page_num ul {
+	position:absolute;
+	right:30px;
+	height:20px;
+}
+#page_num ul li {
+	float:left;
+	width:26px;
+	height:20px;
+}
+#page_num ul li a {
+	display:block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #333;
+	text-align:center;
+	text-indent:0px;
+	text-decoration:none;
+}
+#page_num ul li a:hover,#page_num ul li a.selected {
+	background:#666;
+	font-weight:bold;
+	color:#fff;
+}
+#page_text {
+	width:535px;
+	height:20px;
+	margin:0 10px;
+	float:left;
+	padding:10px 0;
+	background:#ccc;
+}
+#page_text ul {
+	text-align:center;
+}
+#page_text ul li {
+	display:inline;
+}
+#page_text ul li a {
+	color:#333;
+}
